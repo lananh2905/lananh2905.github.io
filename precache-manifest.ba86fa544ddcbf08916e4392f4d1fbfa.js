@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2ab8b9933fd6ee71371694f0fd0b68bf",
+    "revision": "0ceb5c71dc181159b945a852ad5a714b",
     "url": "/index.html"
   },
   {
-    "revision": "3249b218d0215c1bafea",
-    "url": "/static/css/main.86ac7205.chunk.css"
+    "revision": "436a77800ecf02f538de",
+    "url": "/static/css/main.e15d67c1.chunk.css"
   },
   {
-    "revision": "291f4a0d89f14722ecce",
-    "url": "/static/js/2.0b1cc61a.chunk.js"
+    "revision": "fe6f2a4e2ad14cd73283",
+    "url": "/static/js/2.19a91018.chunk.js"
   },
   {
-    "revision": "3249b218d0215c1bafea",
-    "url": "/static/js/main.8d67a6b3.chunk.js"
+    "revision": "436a77800ecf02f538de",
+    "url": "/static/js/main.3814b528.chunk.js"
   },
   {
     "revision": "f4163cc1361175add5e6",
@@ -68,12 +68,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/blogs_image.058eca4c.svg"
   },
   {
+    "revision": "c271e2db0bd589f6ca2c3e29007f8802",
+    "url": "/static/media/chatbot.c271e2db.mp4"
+  },
+  {
     "revision": "cacbc42b661f39344af81c631d8d36a9",
     "url": "/static/media/cloud_infrastructure.cacbc42b.svg"
   },
   {
     "revision": "fee92c18b1cfbd1faa704c51047f113d",
     "url": "/static/media/codeInLogo.fee92c18.png"
+  },
+  {
+    "revision": "e20506558e93b138659435c865c51fa7",
+    "url": "/static/media/computer_graphics_image.e2050655.png"
   },
   {
     "revision": "5f915405511f649dad433a6db9adbff4",
@@ -86,6 +94,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "75a7107b7739a46950f66de29779eb52",
     "url": "/static/media/deeplearning_ai_logo.75a7107b.png"
+  },
+  {
+    "revision": "f7c0f93eec53a60b0927b31b88d8fbfd",
+    "url": "/static/media/deployment_image.f7c0f93e.png"
   },
   {
     "revision": "3e23ca14e7a7c8a7b63d255466749000",
@@ -196,6 +208,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/iiitk_logo.571a8584.png"
   },
   {
+    "revision": "39b2b5e92046ee5e9fc8840fdd5c31e9",
+    "url": "/static/media/information_retrievel.39b2b5e9.png"
+  },
+  {
     "revision": "29152cf756a1facead5393c32e373371",
     "url": "/static/media/intel_logo.29152cf7.jpg"
   },
@@ -208,12 +224,32 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/jsFramework.5b4a6449.svg"
   },
   {
+    "revision": "eeeaa4abc82b071fad0d34bce6b6a71b",
+    "url": "/static/media/lananh.eeeaa4ab.png"
+  },
+  {
+    "revision": "3b4a0c91f5d8ff9740f19c321ef8fe56",
+    "url": "/static/media/lananh_circle.3b4a0c91.png"
+  },
+  {
+    "revision": "3b9f72f584fa39a26db7fc67ece8f3e9",
+    "url": "/static/media/lananh_rect.3b9f72f5.png"
+  },
+  {
     "revision": "c597fbded5de799dfb9abc3fc4f1c26f",
     "url": "/static/media/legato_logo.c597fbde.png"
   },
   {
+    "revision": "09678a1f6c745912d1c0c30cefdaba1f",
+    "url": "/static/media/locket.09678a1f.png"
+  },
+  {
     "revision": "83ac24fb968a474c6a63f7a4e9a8f62c",
     "url": "/static/media/manOnTable.83ac24fb.svg"
+  },
+  {
+    "revision": "a38387daf2b647aee3645f9732be0ad6",
+    "url": "/static/media/ml_image.a38387da.png"
   },
   {
     "revision": "069938a84edd6ebf383c318e9feb5d4c",
@@ -240,6 +276,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/pwa.71408db7.png"
   },
   {
+    "revision": "9ea38b3ccc29481ecfdda5dc106e9b6a",
+    "url": "/static/media/qr_code.9ea38b3c.mp4"
+  },
+  {
+    "revision": "ea2be0d1d41fa71ba11648ac552b58fd",
+    "url": "/static/media/solar_system.ea2be0d1.mp4"
+  },
+  {
     "revision": "2c497738be3831492aeb6bdc43f19154",
     "url": "/static/media/stanford_logo.2c497738.png"
   },
@@ -258,5 +302,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d63630893eb8cb64af65f395d393c481",
     "url": "/static/media/ui_ux_design.d6363089.svg"
+  },
+  {
+    "revision": "5cfae193687b3cc2047225ba0d31f926",
+    "url": "/static/media/uit.5cfae193.png"
   }
 ]);
