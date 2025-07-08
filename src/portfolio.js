@@ -7,78 +7,60 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Ashutosh's Portfolio",
+  title: "LAN ANH",
   description:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "This is LAN ANH's personal portfolio. You can find my projects, skills, and contact information here.",
   og: {
-    title: "Ashutosh Hathidara Portfolio",
+    title: "LAN ANH Portfolio",
     type: "website",
-    url: "http://ashutoshhathidara.com/",
+    url: "http://lananh2905.github.io/",
   },
 };
 
 //Home Page
 const greeting = {
-  title: "Ashutosh Hathidara",
-  logo_name: "AshutoshHathidara",
-  nickname: "layman_brother",
+  title: "TRINH THI LAN ANH",
+  logo_name: "LAN ANH",
+  nickname: "Intern AI Engineer",
   subTitle:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "This is Lan Anh's personal portfolio. You can find my projects, skills, and contact information here.",
   resumeLink:
-    "https://drive.google.com/file/d/1bXRknv_h-XI_3CQ3SGPteGODtvEb7YvI/view?usp=sharing",
-  portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
-  githubProfile: "https://github.com/ashutosh1919",
+    "https://drive.google.com/file/d/1_ZLwaKH_GzvKyG5GDgOoo3xkOjk-SzBr/view?usp=drive_link",
+  portfolio_repository: "https://github.com/lananh2905",
+  githubProfile: "https://github.com/lananh2905",
 };
 
 const socialMediaLinks = [
   /* Your Social Media Link */
-  // github: "https://github.com/ashutosh1919",
-  // linkedin: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
-  // gmail: "ashutoshhathidara98@gmail.com",
-  // gitlab: "https://gitlab.com/ashutoshhathidara98",
-  // facebook: "https://www.facebook.com/laymanbrother.19/",
-  // twitter: "https://twitter.com/ashutosh_1919",
+  // github: "https://github.com/lananh2905",
+  // linkedin: "https://www.linkedin.com/in/lananh2905/",
+  // gmail: "lananh2905@gmail.com",
+  // gitlab: "https://gitlab.com/lananh2905",
+  // facebook: "https://www.facebook.com/lananh2905/",
+  // twitter: "https://twitter.com/lananh2905",
   // instagram: "https://www.instagram.com/layman_brother/"
 
   {
     name: "Github",
-    link: "https://github.com/ashutosh1919",
+    link: "https://github.com/lananh2905",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
   {
-    name: "LinkedIn",
-    link: "https://www.linkedin.com/in/ashutosh1919/",
-    fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
-    backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
-  },
-  {
-    name: "YouTube",
-    link: "https://youtube.com/c/DevSense19",
-    fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
-    backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
-  },
-  {
     name: "Gmail",
-    link: "mailto:ashutoshhathidara98@gmail.com",
+    link: "mailto:lanh29052004@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
   {
-    name: "X-Twitter",
-    link: "https://twitter.com/ashutosh_1919",
-    fontAwesomeIcon: "fa-x-twitter", // Reference https://fontawesome.com/icons/x-twitter?f=brands&s=solid
-    backgroundColor: "#000000", // Reference https://simpleicons.org/?q=x
-  },
-  {
     name: "Facebook",
-    link: "https://www.facebook.com/laymanbrother.19/",
+    link: "https://www.facebook.com/lan.anh.407097/",
     fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
     backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
   },
   {
     name: "Instagram",
-    link: "https://www.instagram.com/layman_brother/",
+    link: "https://www.instagram.com/tt.lan_anh/",
     fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
     backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
   },
@@ -87,13 +69,14 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "Data Science & AI",
-      fileName: "DataScienceImg",
+      title: "Machine Learning",
+      fileName: "ml_image",
       skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
+        "⚡ Strong grasp of Machine Learning, Deep Learning, and Generative AI principles.",
+        "⚡ Practical experience in Computer Vision and NLP projects using modern techniques.",
+        "⚡ Skilled in data preprocessing, model training, fine-tuning, and evaluation with TensorFlow, PyTorch, and Keras.",
       ],
+
       softwareSkills: [
         {
           skillName: "Tensorflow",
@@ -132,12 +115,12 @@ const skills = {
       ],
     },
     {
-      title: "Full Stack Development",
-      fileName: "FullStackImg",
+      title: "Model Deployment & Cloud Platforms",
+      fileName: "deployment_image",
       skills: [
-        "⚡ Building responsive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "⚡ Deploying machine learning models as web apps using Streamlit, Flask, and FastAPI.",
+        "⚡ Building full-stack applications with ReactJS, NodeJS, ExpressJS, ASP.NET, and MongoDB.",
+        "⚡ Containerizing and deploying applications using Docker and cloud platforms like Google Cloud Platform (GCP).",
       ],
       softwareSkills: [
         {
@@ -152,13 +135,6 @@ const skills = {
           fontAwesomeClassname: "fa-css3",
           style: {
             color: "#1572B6",
-          },
-        },
-        {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
-          style: {
-            color: "#CC6699",
           },
         },
         {
@@ -197,72 +173,18 @@ const skills = {
             color: "#2C8EBB",
           },
         },
-        {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
+                {
+          skillName: "MongoDB",
+          fontAwesomeClassname: "simple-icons:mongodb",
           style: {
-            color: "#663399",
+            color: "#47A248",
           },
         },
-        {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
-          style: {
-            color: "#02569B",
-          },
-        },
-      ],
-    },
-    {
-      title: "Cloud Infra-Architecture",
-      fileName: "CloudInfraImg",
-      skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
-      ],
-      softwareSkills: [
         {
           skillName: "GCP",
           fontAwesomeClassname: "simple-icons:googlecloud",
           style: {
             color: "#4285F4",
-          },
-        },
-        {
-          skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
-          style: {
-            color: "#FF9900",
-          },
-        },
-        {
-          skillName: "Azure",
-          fontAwesomeClassname: "simple-icons:microsoftazure",
-          style: {
-            color: "#0089D6",
-          },
-        },
-        {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
-          style: {
-            color: "#FFCA28",
-          },
-        },
-        {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
-          style: {
-            color: "#336791",
-          },
-        },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#47A248",
           },
         },
         {
@@ -272,52 +194,39 @@ const skills = {
             color: "#1488C6",
           },
         },
-        {
-          skillName: "Kubernetes",
-          fontAwesomeClassname: "simple-icons:kubernetes",
-          style: {
-            color: "#326CE5",
-          },
-        },
       ],
     },
     {
-      title: "UI/UX Design",
-      fileName: "DesignImg",
+      title: "Computer Graphics",
+      fileName: "computer_graphics_image",
       skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
-        "⚡ Creating the flow of application functionalities to optimize user experience",
+        "⚡ Understanding of core graphics concepts: rasterization, fractals, 2D and 3D rendering.",
+        "⚡ Experience with OpenGL, WebGL, and Three.js for interactive graphics development.",
+        "⚡ Enable to work with shaders, texture mapping, and lighting techniques in real-time rendering.",
       ],
       softwareSkills: [
-        {
-          skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
-          style: {
-            color: "#FF2BC2",
-          },
+      {
+        skillName: "WebGL",
+        fontAwesomeClassname: "simple-icons:webgl",
+        style: {
+          color: "#990000",
         },
-        {
-          skillName: "Figma",
-          fontAwesomeClassname: "simple-icons:figma",
-          style: {
-            color: "#F24E1E",
-          },
+      },
+      {
+        skillName: "Three.js",
+        fontAwesomeClassname: "simple-icons:threedotjs",
+        style: {
+          color: "#000000",
         },
-        {
-          skillName: "Adobe Illustrator",
-          fontAwesomeClassname: "simple-icons:adobeillustrator",
-          style: {
-            color: "#FF7C00",
-          },
+      },
+      {
+        skillName: "Blender",
+        fontAwesomeClassname: "simple-icons:blender",
+        style: {
+          color: "#F5792A",
         },
-        {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
-          style: {
-            color: "#000000",
-          },
-        },
+      },
+
       ],
     },
   ],
@@ -380,30 +289,17 @@ const competitiveSites = {
 const degrees = {
   degrees: [
     {
-      title: "Indian Institute of Information Technology Kurnool",
-      subtitle: "B.Tech. in Computer Engineering",
-      logo_path: "iiitk_logo.png",
-      alt_name: "IIITDM Kurnool",
-      duration: "2016 - 2020",
+      title: "University of Information Technology - Vietnam National University HCM City",
+      subtitle: "Majoring in Computer Science",
+      logo_path: "uit.png",
+      alt_name: "University of Information Technology",
+      duration: "2022-2025 (In Progress)",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
+        "⚡ I have studied about Machine Learning, Deep Learning, Computer Vision, Natural Language Processing, and Data Science concepts.",
+        "⚡ Besides, I took part in various projects related to these topics.",
+        "⚡ I have also studied about Frontend and Backend Development, Cloud Computing, MLOps and Computer Graphics.",
       ],
-      website_link: "http://iiitk.ac.in",
-    },
-    {
-      title: "Indiana University Bloomington",
-      subtitle: "M.S. in Computer Science",
-      logo_path: "iu_logo.png",
-      alt_name: "Indiana University Bloomington",
-      duration: "2021 - 2023",
-      descriptions: [
-        "⚡ I have taken varity of courses related to Artificial Intelligence which correspond to Explainable AI, Graph Machine Learning, Computer Vision etc.",
-        "⚡ Apart from this, I have also done research assistantship. As part of it, I have worked on creating new algorithms in Graph ML and Network Science.",
-        "⚡ During my time at university, I was also associated with multimedia department. As part of it, I have worked on some documentry films and interviews.",
-      ],
-      website_link: "https://www.indiana.edu/",
+      website_link: "https://www.uit.edu.vn/",
     },
   ],
 };
@@ -686,7 +582,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "Here are some of my projects that I have worked on.",
   avatar_image_path: "projects_image.svg",
 };
 
