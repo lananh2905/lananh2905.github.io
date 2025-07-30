@@ -177,7 +177,7 @@ class Projects extends Component {
                   <Button
                     text="Source Code"
                     newTab={true}
-                    href="https://github.com/lananh2905/QAA-MERN-Web"
+                    href="https://github.com/OnionSm/CS406_AHA"
                     theme={theme}
                   />
                 </div>

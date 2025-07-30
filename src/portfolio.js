@@ -23,7 +23,7 @@ const greeting = {
   subTitle:
     "This is Lan Anh's personal portfolio. You can find my projects, skills, and contact information here.",
   resumeLink:
-    "https://drive.google.com/file/d/1_ZLwaKH_GzvKyG5GDgOoo3xkOjk-SzBr/view?usp=drive_link",
+    "https://drive.google.com/file/d/1YTKmUpPrL6oPiOOetD1ieJQ3qWrmQQkH/view?usp=drive_link",
   portfolio_repository: "https://github.com/lananh2905",
   githubProfile: "https://github.com/lananh2905",
 };
