@@ -79,14 +79,14 @@ class Projects extends Component {
                 </div>
               </div>
               <div className="blog-heading-img-div">
-                {/* {<video
+                {<video
                   src={require("../../assets/videos/chatbot.mp4")}
                   autoPlay
                   muted
                   loop
                   playsInline
-                  style={{ maxWidth: "100%", height: "auto", borderRadius: "10px" }}
-                />} */}
+                  style={{ borderRadius: "10px" }}
+                />}
               </div>
             </div>
           </Fade>
@@ -149,7 +149,7 @@ class Projects extends Component {
             <div className="blog-heading-div">
               <div className="blog-heading-text-div">
                   <h1 className="blog-heading-text" style={{ color: theme.text }}>
-                    Detect and Reconstruct Multiple QR Codes
+                    Detect & Reconstruct Multiple QRCodes
                   </h1>
                   <p className="blog-header-detail-text subTitle" style={{ color: theme.secondaryText }}>
                     <ul>
@@ -183,14 +183,14 @@ class Projects extends Component {
                 </div>
               </div>
               <div className="blog-heading-img-div">
-                {/* {<video
+                {<video
                   src={require("../../assets/videos/qr_code.mp4")}
                   autoPlay
                   muted
                   loop
                   playsInline
                   style={{ maxWidth: "100%", height: "auto", borderRadius: "10px" }}
-                />} */}
+                />}
               </div>
             </div>
           </Fade> 
@@ -243,7 +243,7 @@ class Projects extends Component {
                 >
                   
                 </p>
-                <div className="address-btn-div" style={{gap: 50}}>
+                <div className="address-btn-div" style={{ gap: "30px" }}>
                   <Button
                     text="Details"
                     newTab={true}
@@ -300,14 +300,14 @@ class Projects extends Component {
                 </div>
               </div>
               <div className="blog-heading-img-div">
-                {/* {<video
+                {<video
                   src={require("../../assets/videos/solar_system.mp4")}
                   autoPlay
                   muted
                   loop
                   playsInline
                   style={{ maxWidth: "100%", height: "auto", borderRadius: "10px" }}
-                />} */}
+                />}
               </div>
             </div>
           </Fade>      

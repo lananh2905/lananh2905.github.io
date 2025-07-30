@@ -93,4 +93,9 @@
     display: flex;
     justify-content: center;
   }
+  .greeting-image-div > * {
+    margin-left: 0px;
+    margin-top: 20px;
+    width: 100%;
+  }
 }

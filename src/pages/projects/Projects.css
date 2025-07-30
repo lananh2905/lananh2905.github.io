@@ -1,11 +1,5 @@
 .projects-main {
   width: 100%;
-  text-align: center;
-}
-
-.basic-projects {
-  margin-left: 5%;
-  margin-right: 5%;
 }
 
 .projects-heading-div {
@@ -51,31 +45,27 @@
 .blog-heading-div {
   display: flex;
   margin-top: 200px;
-  margin-left: 5%;;
 }
 
 .address-heading-div {
   display: flex;
   margin-top: 200px;
-  margin-left: 5%;
 }
 
 .blog-heading-div > * {
   flex: 1;
 }
 
-.contact-heading-div > * {
-  flex: 1;
-}
 
 .address-heading-div > * {
   flex: 1;
-  margin-right: 5%;
 }
 
 .contact-heading-img-div {
   align-items: self-start;
   justify-content: self-start;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .blog-heading-img-div {
@@ -110,21 +100,19 @@
 }
 
 .contact-heading-text {
-  font-size: 56px;
-  font-weight: 400;
+  font-size: 40px;
   font-family: "Google Sans Medium";
-  line-height: 1.1;
   text-align: center;
-  margin-top: 40px;
+  margin-bottom: 40px;
+  line-height: 1.1;
 }
 
 .blog-heading-text {
   font-size: 40px;
-  font-weight: bold;
   font-family: "Google Sans Medium";
-  line-height: 1.1;
   text-align: center;
-  margin-top: 40px;
+  margin-bottom: 40px;
+  line-height: 1.1;
 }
 
 .address-heading-text {
@@ -173,6 +161,7 @@
 }
 
 @media (max-width: 1380px) {
+  
   .projects-heading-text {
     font-size: 50px;
     margin-top: 80px;
@@ -180,10 +169,43 @@
   .projects-heading-sub-text {
     font-size: 25px;
   }
+  .blog-heading-div {
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  .blog-heading-img-div {
+    margin-top: 10px;
+    margin-bottom: 100px;
+  }
+  .blog-heading-text {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+  .blog-header-detail-text {
+    font-size: 20px;
+  }
+
+  .address-heading-div {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .address-heading-img-div {
+    margin-top: 10px;
+  }
+  .address-heading-text {
+    font-size: 30px;
+    margin-top: 50px;
+  }
+  .contact-header-detail-text {
+    font-size: 20px;
+  }
 }
 
 @media (max-width: 768px) {
-  .projects-heading-text,
+  .projects-heading-text-div {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
   .publications-heading-text {
     font-size: 30px;
     margin-top: 20px;
@@ -202,7 +224,6 @@
     margin-right: 0px;
     margin-left: 0px;
     line-height: normal;
-    text-align: center;
   }
 
   .repo-cards-div-main {
@@ -210,5 +231,38 @@
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 30px;
+  }
+
+
+  .blog-heading-div {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .blog-heading-img-div {
+    margin-top: 10px;
+  }
+  .blog-heading-text {
+    font-size: 25px;
+    margin-top: 20px;
+  }
+  .blog-header-detail-text {
+    font-size: 16px;
+  }
+
+  .address-heading-div {
+    flex-direction: column;
+    margin-bottom: 80px;
+  }
+  .address-heading-img-div {
+    margin-top: 10px;
+  }
+  .address-heading-text {
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .contact-header-detail-text {
+    font-size: 16px;
   }
 }
