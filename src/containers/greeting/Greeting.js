@@ -32,17 +32,14 @@ export default function Greeting(props) {
                 <Button
                   text="See My Resume"
                   newTab={true}
-                  href="https://drive.google.com/file/d/1GPPu0W18Wjn8EpkN5lRGTDwmVvB269Sh/view?usp=drive_link"
+                  href={greeting.resumeLink}
                   theme={theme}
                   className="portfolio-repo-btn"
                 />
               </div>
-              {/* <div className="button-greeting-div">
-              <Button text="Contact me" href="#contact" />
-              <Button text="See my resume" newTab={true} href={greeting.resumeLink} />
-            </div> */}
             </div>
           </div>
+          
           <div className="greeting-image-div">
             {<img
 							alt="saad sitting on table"

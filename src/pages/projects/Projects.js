@@ -15,12 +15,7 @@ import {
 // import ProjectsData from "../../shared/opensource/projects.json";
 import "./Projects.css";
 import ProjectsImg from "./ProjectsImg";
-import { contactPageData } from "../../portfolio.js";
 
-// const ContactData = contactPageData.contactSection;
-// const blogSection = contactPageData.blogSection;
-// const addressSection = contactPageData.addressSection;
-const phoneSection = contactPageData.phoneSection;
 
 
 class Projects extends Component {
@@ -33,10 +28,6 @@ class Projects extends Component {
           <Fade bottom duration={2000} distance="40px">
             <div className="projects-heading-div">
               <div className="projects-heading-img-div">
-                {/* <img
-											src={require(`../../assets/images/${projectsHeader["avatar_image_path"]}`)}
-											alt=""
-										/> */}
                 <ProjectsImg theme={theme} />
               </div>
               <div className="projects-heading-text-div">
@@ -94,7 +85,7 @@ class Projects extends Component {
                   muted
                   loop
                   playsInline
-                  style={{ maxWidth: "100%", height: "auto", borderRadius: "10px" }}
+                  style={{ borderRadius: "10px" }}
                 />}
               </div>
             </div>
@@ -134,13 +125,11 @@ class Projects extends Component {
                   className="address-heading-text"
                   style={{ color: theme.text }}
                 >
-                  {phoneSection["title"]}
                 </h1>
                 <p
                   className="contact-header-detail-text subTitle"
                   style={{ color: theme.secondaryText }}
                 >
-                  {phoneSection["subtitle"]}
                 </p>
                 <div className="address-btn-div">
                   <Button
@@ -160,7 +149,7 @@ class Projects extends Component {
             <div className="blog-heading-div">
               <div className="blog-heading-text-div">
                   <h1 className="blog-heading-text" style={{ color: theme.text }}>
-                    Detect and Reconstruct Multiple QR Codes
+                    Detect & Reconstruct Multiple QRCodes
                   </h1>
                   <p className="blog-header-detail-text subTitle" style={{ color: theme.secondaryText }}>
                     <ul>
@@ -188,7 +177,7 @@ class Projects extends Component {
                   <Button
                     text="Source Code"
                     newTab={true}
-                    href="https://github.com/lananh2905/QAA-MERN-Web"
+                    href="https://github.com/OnionSm/CS406_AHA"
                     theme={theme}
                   />
                 </div>
@@ -246,15 +235,15 @@ class Projects extends Component {
                   className="address-heading-text"
                   style={{ color: theme.text }}
                 >
-                  {phoneSection["title"]}
+                  
                 </h1>
                 <p
                   className="contact-header-detail-text subTitle"
                   style={{ color: theme.secondaryText }}
                 >
-                  {phoneSection["subtitle"]}
+                  
                 </p>
-                <div className="address-btn-div" style={{gap: 50}}>
+                <div className="address-btn-div" style={{ gap: "30px" }}>
                   <Button
                     text="Details"
                     newTab={true}

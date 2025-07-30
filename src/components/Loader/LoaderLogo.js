@@ -17,7 +17,7 @@ class LogoLoader extends React.Component {
               x={50 + index * 80}
               y={150}
               className="logo-text"
-              style={{ animationDelay: `${index * 0.2}s` }}
+              style={{ animationDelay: `${index * 0.05}s` }}
             >
               {char}
             </text>

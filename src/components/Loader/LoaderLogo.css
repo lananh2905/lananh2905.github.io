@@ -24,7 +24,7 @@
   stroke-width: 2px;
   stroke-dasharray: 300;
   stroke-dashoffset: 300;
-  animation: draw 0.8s forwards, glow 1s forwards;
+  animation: draw 0.5s forwards, glow 0.5s forwards;
   animation-timing-function: ease-in-out;
   animation-delay: 0s;
   filter: drop-shadow(0 0 0px #ffffff);
