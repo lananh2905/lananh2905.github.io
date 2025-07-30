@@ -15,12 +15,7 @@ import {
 // import ProjectsData from "../../shared/opensource/projects.json";
 import "./Projects.css";
 import ProjectsImg from "./ProjectsImg";
-import { contactPageData } from "../../portfolio.js";
 
-// const ContactData = contactPageData.contactSection;
-// const blogSection = contactPageData.blogSection;
-// const addressSection = contactPageData.addressSection;
-const phoneSection = contactPageData.phoneSection;
 
 
 class Projects extends Component {
@@ -33,10 +28,6 @@ class Projects extends Component {
           <Fade bottom duration={2000} distance="40px">
             <div className="projects-heading-div">
               <div className="projects-heading-img-div">
-                {/* <img
-											src={require(`../../assets/images/${projectsHeader["avatar_image_path"]}`)}
-											alt=""
-										/> */}
                 <ProjectsImg theme={theme} />
               </div>
               <div className="projects-heading-text-div">
@@ -88,14 +79,14 @@ class Projects extends Component {
                 </div>
               </div>
               <div className="blog-heading-img-div">
-                {<video
+                {/* {<video
                   src={require("../../assets/videos/chatbot.mp4")}
                   autoPlay
                   muted
                   loop
                   playsInline
                   style={{ maxWidth: "100%", height: "auto", borderRadius: "10px" }}
-                />}
+                />} */}
               </div>
             </div>
           </Fade>
@@ -134,13 +125,11 @@ class Projects extends Component {
                   className="address-heading-text"
                   style={{ color: theme.text }}
                 >
-                  {phoneSection["title"]}
                 </h1>
                 <p
                   className="contact-header-detail-text subTitle"
                   style={{ color: theme.secondaryText }}
                 >
-                  {phoneSection["subtitle"]}
                 </p>
                 <div className="address-btn-div">
                   <Button
@@ -194,14 +183,14 @@ class Projects extends Component {
                 </div>
               </div>
               <div className="blog-heading-img-div">
-                {<video
+                {/* {<video
                   src={require("../../assets/videos/qr_code.mp4")}
                   autoPlay
                   muted
                   loop
                   playsInline
                   style={{ maxWidth: "100%", height: "auto", borderRadius: "10px" }}
-                />}
+                />} */}
               </div>
             </div>
           </Fade> 
@@ -246,13 +235,13 @@ class Projects extends Component {
                   className="address-heading-text"
                   style={{ color: theme.text }}
                 >
-                  {phoneSection["title"]}
+                  
                 </h1>
                 <p
                   className="contact-header-detail-text subTitle"
                   style={{ color: theme.secondaryText }}
                 >
-                  {phoneSection["subtitle"]}
+                  
                 </p>
                 <div className="address-btn-div" style={{gap: 50}}>
                   <Button
@@ -311,14 +300,14 @@ class Projects extends Component {
                 </div>
               </div>
               <div className="blog-heading-img-div">
-                {<video
+                {/* {<video
                   src={require("../../assets/videos/solar_system.mp4")}
                   autoPlay
                   muted
                   loop
                   playsInline
                   style={{ maxWidth: "100%", height: "auto", borderRadius: "10px" }}
-                />}
+                />} */}
               </div>
             </div>
           </Fade>      
